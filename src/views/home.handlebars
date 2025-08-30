@@ -1,0 +1,10 @@
+<h1>Entrega 2 – WebSockets + Handlebars (WIP)</h1>
+
+<p>Este es el esqueleto inicial para la entrega. Próximo paso: integrar <code>/realtimeproducts</code> con Socket.IO.</p>
+
+<h2>Productos (dummy)</h2>
+<ul>
+  {{#each products}}
+    <li><strong>{{this.title}}</strong> — $ {{this.price}} (id: {{this.id}})</li>
+  {{/each}}
+</ul>
